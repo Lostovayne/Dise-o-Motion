@@ -18,7 +18,7 @@ export function ImagenesGallery() {
   }
 
   return (
-    <div className='flex gap-4 w-10/12 lg:w-6/12 mx-auto flex-wrap mt-6 mb-2'>
+    <div className='flex gap-4 w-10/12 lg:w-7/12 mx-auto justify-center flex-wrap mt-6 mb-2'>
       {images.map((src, index) => (
         <motion.img
           initial='hidden'
